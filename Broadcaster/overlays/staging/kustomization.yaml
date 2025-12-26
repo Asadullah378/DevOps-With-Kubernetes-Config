@@ -8,4 +8,4 @@ patches:
 images:
 - name: PROJECT/BROADCASTER
   newName: gcr.io/dwk-gke-482214/broadcaster
-  newTag: 86a6634dee5905323c14da3eea6e43933ade254b
+  newTag: c8ddac83e56eb80a09b8ace9a6a301a260e1833a
