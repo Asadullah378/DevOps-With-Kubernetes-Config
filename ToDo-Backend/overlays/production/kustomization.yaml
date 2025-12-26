@@ -2,18 +2,17 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: project
 resources:
-  - ../../base
-  - backup-cronjob.yaml
+- ../../base
+- backup-cronjob.yaml
 patches:
-  - path: configmap-patch.yaml
+- path: configmap-patch.yaml
 images:
-  - name: PROJECT/TODO_BACKEND
-    newName: gcr.io/dwk-gke-482214/todo-backend
-    newTag: latest
-  - name: PROJECT/TODO_CRONJOB
-    newName: gcr.io/dwk-gke-482214/todo-cronjob
-    newTag: latest
-  - name: PROJECT/TODO_BACKUP
-    newName: gcr.io/dwk-gke-482214/todo-backup
-    newTag: latest
-
+- name: PROJECT/TODO_BACKEND
+  newName: gcr.io/dwk-gke-482214/todo-backend
+  newTag: 8404648a97d7d6c12f6a027f667c52001683dfb4
+- name: PROJECT/TODO_BACKUP
+  newName: gcr.io/dwk-gke-482214/todo-backup
+  newTag: 8404648a97d7d6c12f6a027f667c52001683dfb4
+- name: PROJECT/TODO_CRONJOB
+  newName: gcr.io/dwk-gke-482214/todo-cronjob
+  newTag: 8404648a97d7d6c12f6a027f667c52001683dfb4

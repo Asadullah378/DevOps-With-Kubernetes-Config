@@ -2,9 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: project
 resources:
-  - ../../base
+- ../../base
 images:
-  - name: PROJECT/TODO_APP
-    newName: gcr.io/dwk-gke-482214/todo-app
-    newTag: latest
-
+- name: PROJECT/TODO_APP
+  newName: gcr.io/dwk-gke-482214/todo-app
+  newTag: 8404648a97d7d6c12f6a027f667c52001683dfb4
