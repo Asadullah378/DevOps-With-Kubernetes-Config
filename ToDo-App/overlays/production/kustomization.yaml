@@ -6,4 +6,4 @@ resources:
 images:
 - name: PROJECT/TODO_APP
   newName: gcr.io/dwk-gke-482214/todo-app
-  newTag: bf2ea644fb5ec1fc9a972e06cfb679e8cfb03efa
+  newTag: 94a9a6811651400ffccf805a5f0d1fa2098d3122
