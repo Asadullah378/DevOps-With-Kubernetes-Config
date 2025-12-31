@@ -9,10 +9,10 @@ patches:
 images:
 - name: PROJECT/TODO_BACKEND
   newName: gcr.io/dwk-gke-482214/todo-backend
-  newTag: abbfcaa36b8da700f397417cbb744a4b4d068b70
+  newTag: 598402e1e3c1e12785bf350b36d89e2b1196b426
 - name: PROJECT/TODO_BACKUP
   newName: gcr.io/dwk-gke-482214/todo-backup
-  newTag: abbfcaa36b8da700f397417cbb744a4b4d068b70
+  newTag: 598402e1e3c1e12785bf350b36d89e2b1196b426
 - name: PROJECT/TODO_CRONJOB
   newName: gcr.io/dwk-gke-482214/todo-cronjob
-  newTag: abbfcaa36b8da700f397417cbb744a4b4d068b70
+  newTag: 598402e1e3c1e12785bf350b36d89e2b1196b426
